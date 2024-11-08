@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black: #171717;
+  --font-white: #ffffff;
+  --font-gray: #464343;
+  --font-gray-clean: #bebdbd;
+  --font-purple: #7c08be;
+  --font-green: rgb(14, 223, 14);
+}
+
+body {
+    background-color: var(--black);
+    padding: 2rem;
+}

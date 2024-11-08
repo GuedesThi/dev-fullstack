@@ -1,0 +1,118 @@
+/* CAIXA DO PROJETO */
+
+.container {
+    background-color: rgb(0, 0, 0);
+    width: 70%;
+    padding: 2rem;
+    border-radius: 20px;
+    border: 1px solid var(--font-gray-clean);
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem
+}
+
+/* CARGO + MODELO */
+
+.firstLine {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+/* CARGO DO PROJETO */
+
+.firstLine > h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--font-white);
+}
+
+/* MODELO DO PROJETO */
+
+.firstLine > span {
+    color: var(--font-white);
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+
+/* TÍTULO + BOTÃO PRO GITHUB */
+
+.secondLine {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* TÍTULO DO PROJETO */
+
+.secondLine > h2 {
+    color: var(--font-gray-clean);
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+/* BOTÃO PRO GITHUB DO PROJETO */
+
+.secondLine > a > button {
+    color: var(--font-white);
+    font-weight: 500;
+    font-size: 1.1rem;
+    border: 2px solid var(--font-purple);
+    padding: 0.6rem 1rem;
+    border-radius: 10px;
+}
+
+/* DATA + LOCAL */
+
+.thirdLine {}
+
+/* DATA + LOCAL DO PROJETO */
+
+.thirdLine > h3 {
+    color: var(--font-gray-clean);
+    font-size: 0.9rem
+}
+
+/* DESCRIÇÃO */
+
+.fourthLine {
+    margin-top: 2rem;
+}
+
+/* DESCRIÇÃO DO PROJETO */
+
+.fourthLine > p {
+    color: var(--font-white);
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+/* TECNOLOGIAS */
+
+.lastLine {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 0.5rem;
+}
+
+/* ESPAÇO DA TECNOLOGIA */
+
+.lastLine > .tech {
+    background-color: var(--font-black);
+    padding: 0.6rem 0.9rem;
+    border: 1px solid var(--font-white);
+    border-radius: 10px;
+}
+
+/* TÍTULO DA TECNOLOGIA DO PROJETO */
+
+.lastLine > .tech > span {
+    color: var(--font-gray-clean);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
