@@ -4,7 +4,7 @@ interface ProjectParams {
     cargo: "Freelancer" | "Desenvolvedor Frontend Júnior" | "Desenvolvedor Backend Júnior" | "Desenvolvedor Fullstack Júnior";
     model: "💻Home Office" | "🪑Presencial";
     title: string;
-    link: string;
+    link: string[];
     data: string;
     local: string;
     description: string;
@@ -21,9 +21,14 @@ export default function Project({ cargo, title, link, local, data, model, descri
             
             <div className={styles.secondLine}>
                 <h2>{title}</h2>
-                <a href={link} target="_blank">
-                    <button>GitHub</button>
-                </a>
+            <div className={styles.linkContainer}>
+                {link.map((link, index) => (
+                    <a href={link} target="_blank" key={index} rel="noopener noreferrer">
+                        <button>GitHub</button>
+                    </a>
+                ))}
+            </div>
+                
             </div>
 
             <div className={styles.thirdLine}>

@@ -1,26 +1,29 @@
 {
   "dodia-tapago": {
     "title": "Dodia Tapago",
-    "link": "https://github.com/GuedesThi/dodia-tapago",
+    "link": ["https://github.com/GuedesThi/dodia-tapago"],
     "local": "Nilópolis, RJ",
     "data": "Setembro de 2024 - Novembro de 2024",
-    "description": "Serviço (API) backend, para sistemas de Gympass. Onde, um usuário pode criar uma conta para realizar check-ins em academias de até tantos km dele. E, donos de academias (sendo ADMINS) podem cadastrá-las e validar check-ins de seus alunos.",
+    "description": "Serviço (API) de Gympass para academias. Onde, a API permite: criação de usuário, criação de academias (para ADMINS), realização de check-ins em academias que estão até tantos KM do usuário, e validação dos check-ins (para ADMINS).",
     "tech": [
       "Node.js",
       "Fastify",
       "Prisma ORM",
       "JWT",
+      "Vitest",
       "Docker Compose",
-      "PostgreSQL",
-      "Vitest"
+      "PostgreSQL"
     ]
   },
   "decasa-metais": {
     "title": "Decasa Metais",
-    "link": "https://github.com/GuedesThi/evandro-front",
+    "link": [
+      "https://github.com/GuedesThi/evandro-front",
+      "https://github.com/GuedesThi/evandro-back"
+    ],
     "local": "Nilópolis, RJ",
     "data": "Julho de 2024 - Setembro de 2024",
-    "description": "E-commerce para venda de peças metálicas caseiras, como torneiras, chuveiros, secadoras eletricas, etc.",
+    "description": "E-commerce para venda de peças metálicas caseiras, como torneiras, chuveiros, secadoras eletricas, etc. Onde, tive que desenvolver o design da aplicação, montar toda a interface, criar a API (controllers, models, services, repositories), cuidar da segurança, etc. Por questões de agenda, o projeto não foi finalizado, porém, 50% do frontend e 90% do backend foram feitos.",
     "tech": [
       "Next.js",
       "TypeScript",

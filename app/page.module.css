@@ -1,104 +1,234 @@
 @-webkit-keyframes color-change {
-    0% { color: var(--font-white); }
-    20% { color: var(--font-gray); }
-    100% { color: var(--font-white); }
+  0% {
+    color: var(--font-white);
+  }
+  20% {
+    color: var(--font-gray);
+  }
+  100% {
+    color: var(--font-white);
+  }
 }
 @-moz-keyframes color-change {
-    0% { color: var(--font-white); }
-    20% { color: var(--font-gray); }
-    100% { color: var(--font-white); }
+  0% {
+    color: var(--font-white);
+  }
+  20% {
+    color: var(--font-gray);
+  }
+  100% {
+    color: var(--font-white);
+  }
 }
 @-ms-keyframes color-change {
-    0% { color: var(--font-white); }
-    20% { color: var(--font-gray); }
-    100% { color: var(--font-white); }
+  0% {
+    color: var(--font-white);
+  }
+  20% {
+    color: var(--font-gray);
+  }
+  100% {
+    color: var(--font-white);
+  }
 }
 @-o-keyframes color-change {
-    0% { color: var(--font-white); }
-    20% { color: var(--font-gray); }
-    100% { color: var(--font-white); }
+  0% {
+    color: var(--font-white);
+  }
+  20% {
+    color: var(--font-gray);
+  }
+  100% {
+    color: var(--font-white);
+  }
 }
 @keyframes color-change {
-    0% { color: var(--font-white); }
-    20% { color: var(--font-gray); }
-    100% { color: var(--font-white); }
+  0% {
+    color: var(--font-white);
+  }
+  20% {
+    color: var(--font-gray);
+  }
+  100% {
+    color: var(--font-white);
+  }
 }
 
 .mainContainer {
-    margin-top: 3.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    padding: 0 0 3rem 0;
+  margin-top: 5.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 0 0 3rem 0;
 }
 
 .initialText {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0.7rem;
-    margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+  margin-top: 6rem;
 }
 
 .initialText > h1 {
-    font-size: 3rem;
-    font-weight: 500;
-    -webkit-animation: color-change 4s infinite;
-    -moz-animation: color-change 4s infinite;
-    -o-animation: color-change 4s infinite;
-    -ms-animation: color-change 4s infinite;
-    animation: color-change 4s infinite;
+  font-size: 3rem;
+  font-weight: 500;
+  -webkit-animation: color-change 4s infinite;
+  -moz-animation: color-change 4s infinite;
+  -o-animation: color-change 4s infinite;
+  -ms-animation: color-change 4s infinite;
+  animation: color-change 4s infinite;
 }
 
 .initialText > p {
-    color: var(--font-white);
-    font-size: 1.2rem;
-    font-weight: 400;
+  color: var(--font-white);
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
 .initialText > .text {
-    font-size: 1rem;
-    color: var(--font-gray-clean);
-    margin-top: 3rem;
-    font-weight: 400;
-    text-align: center;
+  font-size: 1rem;
+  color: var(--font-gray-clean);
+  margin-top: 3rem;
+  font-weight: 400;
+  text-align: center;
+  width: 80%;
 }
 
 .initialText > a > button {
-    color: var(--font-white);
-    font-weight: 500;
-    border: 2px solid var(--font-gray-clean);
-    padding: 1rem 1.2rem;
-    border-radius: 18px;
-    background-color: #000000;
-    margin-top: 2rem;
-    transition: all 0.5s ease-in-out;
+  color: var(--font-white);
+  font-weight: 500;
+  border: 2px solid var(--font-gray-clean);
+  padding: 1rem 1.2rem;
+  border-radius: 18px;
+  background-color: #000000;
+  margin-top: 2rem;
+  transition: all 0.5s ease-in-out;
 }
 
 .initialText > a > button:hover {
-    transform: scale(1.1);
-    border: 3px solid var(--font-gray-clean);
+  transform: scale(1.1);
+  border: 3px solid var(--font-gray-clean);
 }
 
 .projectsContainer {
-    width: 100%;
-    height: auto;
-    padding: 2rem 0;
-    margin-top: 5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    gap: 2rem
+  width: 100%;
+  height: auto;
+  padding: 2rem 0;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 2rem;
 }
 
 .projectsContainer > h3 {
-    color: var(--font-white);
-    font-size: 1.5rem;
-    font-weight: 500;
+  color: var(--font-white);
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
+@media (max-width: 850px) {
+  @-webkit-keyframes color-change {
+    0% {
+      color: var(--font-white);
+    }
+    20% {
+      color: var(--font-white);
+    }
+    100% {
+      color: var(--font-white);
+    }
+  }
+  @-moz-keyframes color-change {
+    0% {
+      color: var(--font-white);
+    }
+    20% {
+      color: var(--font-white);
+    }
+    100% {
+      color: var(--font-white);
+    }
+  }
+  @-ms-keyframes color-change {
+    0% {
+      color: var(--font-white);
+    }
+    20% {
+      color: var(--font-white);
+    }
+    100% {
+      color: var(--font-white);
+    }
+  }
+  @-o-keyframes color-change {
+    0% {
+      color: var(--font-white);
+    }
+    20% {
+      color: var(--font-white);
+    }
+    100% {
+      color: var(--font-white);
+    }
+  }
+  @keyframes color-change {
+    0% {
+      color: var(--font-white);
+    }
+    20% {
+      color: var(--font-white);
+    }
+    100% {
+      color: var(--font-white);
+    }
+  }
+
+  .mainContainer {
+    margin-top: 3.5rem;
+    padding: 0 0 3rem 0;
+  }
+
+  .initialText {
+    gap: 1rem;
+    margin-top: 6rem;
+    padding: 0 1rem;
+  }
+
+  .initialText > h1 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    text-align: initial;
+  }
+
+  .initialText > p {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: initial;
+  }
+
+  .initialText > .text {
+    font-size: 1rem;
+    margin-top: 5rem;
+    font-weight: 400;
+    text-align: initial;
+    width: 100%;
+  }
+
+  .initialText > a > button {
+    font-size: 0.9rem;
+    margin-top: 2rem;
+  }
+
+  .projectsContainer {
+    margin-top: 7rem;
+    justify-content: start;
+    gap: 4rem;
+  }
+}
