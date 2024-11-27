@@ -16,7 +16,7 @@ export default function Home() {
             Tenho domínio em ferramentas (e conceitos) voltadas para <strong>frontend</strong> e <strong>backend</strong>
           </p>
           
-          <a href="/fullstack.pdf" target="_blank">
+          <a href="/Fullstack.pdf" target="_blank">
             <button>Meu Currículo 📄</button>
           </a>
         </div>
