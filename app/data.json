@@ -1,40 +1,67 @@
 {
-  "dodia-tapago": {
-    "title": "Dodia Tapago",
-    "link": ["https://github.com/GuedesThi/dodia-tapago"],
-    "local": "Nilópolis, RJ",
-    "data": "Setembro de 2024 - Novembro de 2024",
-    "description": "Serviço (API) de Gympass para academias. Onde, a API permite: criação de usuário, criação de academias (para ADMINS), realização de check-ins em academias que estão até tantos KM do usuário, e validação dos check-ins (para ADMINS).",
-    "tech": [
-      "Node.js",
-      "Fastify",
-      "Prisma ORM",
-      "JWT",
-      "Vitest",
-      "Docker Compose",
-      "PostgreSQL"
-    ]
+  "projects": {
+    "myqr": {
+      "title": "MyQR",
+      "link": ["https://github.com/GuedesThi/myqr"],
+      "local": "Nilópolis, RJ",
+      "data": "Janeiro de 2025",
+      "description": "Página única para usuários gerarem e baixarem QR Codes, através de textos ou imagens. Onde, utilizei uma biblioteca React para gerar os QR Codes, e para conseguir transformar imagens em um, eu faço com que elas tenham seu upload feito num banco de dados (Supabase), para o QR Code ser a URL desse arquivo no banco.",
+      "tech": ["TypeScript", "React.js", "Next.js", "Supabase"]
+    },
+    "dodia-tapago": {
+      "title": "Dodia Tapago",
+      "link": ["https://github.com/GuedesThi/dodia-tapago"],
+      "local": "Nilópolis, RJ",
+      "data": "Setembro de 2024 - Novembro de 2024",
+      "description": "Serviço (API) de Gympass para academias. Onde, a API permite: criação de usuário, criação de academias (para ADMINS), realização de check-ins em academias que estão até tantos KM do usuário, e validação dos check-ins (para ADMINS).",
+      "tech": [
+        "Node.js",
+        "Fastify",
+        "Prisma ORM",
+        "JWT",
+        "Vitest",
+        "Docker Compose",
+        "PostgreSQL"
+      ]
+    },
+    "decasa-metais": {
+      "title": "Decasa Metais",
+      "link": [
+        "https://github.com/GuedesThi/evandro-front",
+        "https://github.com/GuedesThi/evandro-back"
+      ],
+      "local": "Nilópolis, RJ",
+      "data": "Julho de 2024 - Setembro de 2024",
+      "description": "E-commerce para venda de peças metálicas caseiras, como torneiras, chuveiros, secadoras eletricas, etc. Onde, tive que desenvolver o design da aplicação, montar toda a interface, criar a API (controllers, models, services, repositories), cuidar da segurança, etc. Por questões de agenda, o projeto não foi finalizado, porém, 50% do frontend e 90% do backend foram feitos.",
+      "tech": [
+        "Next.js",
+        "TypeScript",
+        "React.js",
+        "Java",
+        "Spring Boot",
+        "Spring Security",
+        "JPA",
+        "JWT",
+        "Docker Compose",
+        "PostgreSQL"
+      ]
+    }
   },
-  "decasa-metais": {
-    "title": "Decasa Metais",
-    "link": [
-      "https://github.com/GuedesThi/evandro-front",
-      "https://github.com/GuedesThi/evandro-back"
-    ],
-    "local": "Nilópolis, RJ",
-    "data": "Julho de 2024 - Setembro de 2024",
-    "description": "E-commerce para venda de peças metálicas caseiras, como torneiras, chuveiros, secadoras eletricas, etc. Onde, tive que desenvolver o design da aplicação, montar toda a interface, criar a API (controllers, models, services, repositories), cuidar da segurança, etc. Por questões de agenda, o projeto não foi finalizado, porém, 50% do frontend e 90% do backend foram feitos.",
-    "tech": [
-      "Next.js",
-      "TypeScript",
-      "React.js",
-      "Java",
-      "Spring Boot",
-      "Spring Security",
-      "JPA",
-      "JWT",
-      "Docker Compose",
-      "PostgreSQL"
-    ]
-  }
+  "certifications": [
+    "/certifications/certificado-docker.png",
+    "/certifications/certificado-excel.png",
+    "/certifications/certificado-java.png",
+    "/certifications/certificado-java-2.png",
+    "/certifications/certificado-java-3.png",
+    "/certifications/certificado-mysql.png",
+    "/certifications/certificado-next.png",
+    "/certifications/certificado-nginx.png",
+    "/certifications/certificado-node.png",
+    "/certifications/certificado-python.png",
+    "/certifications/certificado-react-typescript.png",
+    "/certifications/certificado-spring.png",
+    "/certifications/certificado-typescript.png",
+    "/certifications/certificado-ui.png",
+    "/certifications/certificado-ux.png"
+  ]
 }
